@@ -1,0 +1,150 @@
+# 🚀 Siddiqur Rahman — 3D Developer Portfolio
+
+A modern, animated 3D developer portfolio built with **React**, **Three.js**, **TailwindCSS**, and advanced motion effects. Showcasing skills, projects, and creativity with stunning visuals and smooth user experience.
+
+![Portfolio Screenshot](https://github.com/user-attachments/assets/9b0ed20e-074e-4f2a-81d8-20c9da751e9e)
+
+---
+
+## ✨ Features
+
+- **3D Visuals**: Interactive 3D astronaut and planet scenes powered by [React Three Fiber](https://docs.pmnd.rs/react-three-fiber/getting-started/introduction) and [Drei](https://github.com/pmndrs/drei).
+- **Motion Effects**: Smooth transitions and scroll-based animations using [Motion One](https://motion.dev/) and [Framer Motion](https://www.framer.com/motion/).
+- **Responsive UI**: Clean, modern, and fully responsive design with [TailwindCSS](https://tailwindcss.com/).
+- **Contact Form**: Working contact form with [EmailJS](https://www.emailjs.com/) integration.
+- **Showcase**: Animated project previews, testimonials, and timeline of experience.
+- **Performance**: Lightning-fast development and builds with [Vite](https://vitejs.dev/).
+- **Custom Components**: Orbiting skill icons, parallax backgrounds, draggable cards, and more.
+
+---
+
+## 🛠 Tech Stack
+
+| Tech                | Description                           |
+|---------------------|---------------------------------------|
+| React               | Front-end JavaScript library           |
+| Vite                | Fast bundler and dev environment       |
+| TailwindCSS         | Utility-first CSS framework            |
+| React Three Fiber   | 3D rendering with Three.js in React    |
+| Drei                | Helpers and abstractions for R3F       |
+| Motion One          | Animation library for React            |
+| Framer Motion       | Animation library for React            |
+| EmailJS             | Form handling and email integration    |
+| Cobe                | Interactive globe visualization        |
+| Maath               | Math helpers for 3D and animation      |
+
+---
+
+## 📁 Project Structure
+
+```
+.
+├── public/
+│   ├── assets/             # Images, textures, icons, models
+│   ├── models/             # 3D models (GLTF/GLB)
+│   └── vite.svg
+├── src/
+│   ├── components/         # Reusable UI and 3D components
+│   ├── constants/          # Data for projects, socials, reviews, etc.
+│   ├── hoc/                # Higher-order components (e.g., SectionWrapper)
+│   ├── sections/           # Main page sections (Hero, About, Projects, etc.)
+│   ├── utils/              # Animation and utility helpers
+│   ├── styles.js           # JS-based style constants
+│   ├── index.css           # Tailwind and custom CSS
+│   ├── App.jsx             # Main app file
+│   └── main.jsx            # Entry point
+├── tailwind.config.js
+├── vite.config.js
+├── package.json
+└── README.md
+```
+
+---
+
+## 🚦 Getting Started
+
+### 1. Clone the Repository
+
+```sh
+git clone https://github.com/siddiqur2002/portfolio.git
+cd portfolio
+```
+
+### 2. Install Dependencies
+
+```sh
+npm install
+```
+
+### 3. Configure Environment Variables
+
+Create a `.env` file in the root directory and add your [EmailJS](https://www.emailjs.com/) credentials:
+
+```
+VITE_EMAILJS_SERVICE_ID=your_service_id
+VITE_EMAILJS_TEMPLATE_ID=your_template_id
+VITE_EMAILJS_PUBLIC_KEY=your_public_key
+```
+
+### 4. Run the Development Server
+
+```sh
+npm run dev
+```
+
+The app will be available at [http://localhost:5173](http://localhost:5173).
+
+---
+
+## 🖼️ Screenshots
+
+| Hero Section | Projects Section | 3D Globe |
+|:------------:|:---------------:|:--------:|
+| ![Hero](https://github.com/user-attachments/assets/9b0ed20e-074e-4f2a-81d8-20c9da751e9e) | ![Projects](https://github.com/user-attachments/files/19820923/public.zip) | ![Globe](https://github.com/user-attachments/files/19820923/public.zip) |
+
+---
+
+## 🔗 Assets
+
+All assets (images, icons, 3D models) are located in the `public/assets/` and `public/models/` folders.
+
+- 3D Astronaut: [Sketchfab - wallmasterr](https://sketchfab.com/3d-models/tenhun-falling-spaceman-fanart-9fd80b6a259f41fd99e6f56eee686dc5)
+- 3D Planet: [Sketchfab - cmzw](https://sketchfab.com/3d-models/stylized-planet-789725db86f547fc9163b00f302c3e70)
+- All icons and images are open-source or custom-made.
+
+---
+
+## 📬 Contact
+
+Want to connect or collaborate?
+
+- [WhatsApp](https://wa.me/8801784071666?text=Hello!%20I%20want%20to%20know%20more.)
+- [GitHub](https://github.com/siddiqur2002)
+- [LinkedIn](#) <!-- Add your LinkedIn URL here -->
+
+Or use the contact form on the website!
+
+---
+
+## 💡 Suggestions or Feedback?
+
+- Open an issue or pull request on [GitHub](https://github.com/siddiqur2002/portfolio).
+- Leave a comment or suggestion on the [YouTube video](https://youtu.be/S9UQItTpwUQ).
+
+---
+
+## ⭐ Like This Project?
+
+Star the repo and share it with your friends!  
+Subscribe to my [YouTube channel](https://www.youtube.com/channel/UCZhtUWTtk3bGJiMPN9T4HWA) for more dev content.
+
+---
+
+## 📄 License
+
+- 3D models and some assets are under [CC-BY-4.0](http://creativecommons.org/licenses/by/4.0/) and [CC-BY-NC-4.0](http://creativecommons.org/licenses/by-nc/4.0/). See `/public/planet/license.txt` and model sources for details.
+- All code is MIT licensed.
+
+---
+
+> Crafted with ❤️ by Siddiqur Rahman — "Building
